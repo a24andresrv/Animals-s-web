@@ -1,0 +1,53 @@
+html{
+    font-family: "Lexend",sans-serif;
+    color: white;
+    height: 100%;
+}
+body{
+    margin:0;
+    height: 100%;
+}
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+img{
+    width: 100%; 
+    height: 100%;
+}
+main{
+    height:30%;
+    display: flex;
+    background-color: #F4803D;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+    width: 150px;
+    height: 100px;
+    background-color: #6AC5E2;
+    border-radius: 10%;
+    font-size:40px;
+    align-items: center;
+    justify-content: center;
+
+}
+div a{
+    color: white;
+    text-decoration: white;
+}
+a:hover{
+    color: #3069B6;
+}
+a:visited{
+    color:black
+}
+footer{
+    height: 10%;
+    display: flex;
+    background-color: #6AC5E2;
+    align-items: center;
+    justify-content: center;
+}
